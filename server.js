@@ -13,14 +13,6 @@ server.get('/test',(request,response)=>{
     response.send('server in progress');
 })
 
-server.get('/hello',(req,res)=>{
-    let family = [
-        {name:'welcome'},
-        {name:'my'},
-        {name:'dear'}
-    ];
-    res.send(family);
-})
 
 
 server.listen(PORT, ()=>{
